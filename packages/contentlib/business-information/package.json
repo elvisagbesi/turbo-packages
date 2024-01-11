@@ -1,0 +1,20 @@
+{
+  "name": "@pineapple-test/business-information",
+  "version": "0.0.3",
+  "private": false,
+  "description": "This is the content type used for when a business wants to put their contact information in the website. It can be used in the main page content, in a grid or even in the footer or hero of a page that supports it.",
+  "author": "Pineapple Software <pineapplesoftware.io> (https://pineapplesoftware.io)",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "publish:package": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "tailwindcss": "3.x"
+  }
+}
