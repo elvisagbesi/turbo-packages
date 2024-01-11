@@ -1,0 +1,22 @@
+{
+  "name": "@pineapple-test/google-business-embed",
+  "version": "0.0.12",
+  "private": false,
+  "description": "a description",
+  "author": "Pineapple Software <pineapplesoftware.io> (https://pineapplesoftware.io)",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "publish:package": "npm publish --access public"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": "18",
+    "tailwindcss": "3.x"
+  }
+}
